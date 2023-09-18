@@ -1,0 +1,164 @@
+/* styles.css */
+body {
+    font-family: 'Lato', Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+}
+
+header {
+    font-family: Bradley Hand, cursive;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    text-shadow: 12px 2px 4px rgba(0, 167, 89, 0.5);
+}
+
+nav {
+    font-family:Blippo, fantasy;
+    background-color: #7e7a7a;
+    color: #0a0a0a;
+    text-align: center;
+    padding: 10px;
+}
+
+main {
+    max-width: 100%; 
+    height: 100vh;
+    background-image: url('img1.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    position: relative; 
+    color: #fff; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.linkedin-icon {
+    font-size: 24px;
+    color: #0077B5; 
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 100px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #00bceb;
+    font-weight: none;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.quote {
+    font-size: 28px;
+    font-family:Georgia;
+    font-weight: bold;
+    margin-top: -500px;
+    text-shadow: 2px 2px 4px rgba(255, 0, 0, 0.5); 
+}
+
+.quote:hover {
+    color: #FFD700; 
+    transition: color 0.3s ease; 
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    font-style: italic;
+}
+
+
+.sticky-notes {
+    display: flex;
+}
+
+.sticky-note {
+    background-color: #a06868;
+    border: 2px solid #080808;
+    padding: 10px;
+    margin: 10px;
+    max-width: 300px;
+    text-align: left;
+    font-family: 'Courier New', monospace; 
+    transition: transform 0.3s ease; 
+}
+
+.sticky-note:hover {
+    transform: scale(1.1); 
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+a {
+    text-decoration: none;
+    color: #0077B5; 
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #00558C; 
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.contact-container {
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.contact-heading {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    font-size: 18px;
+    margin-top: 10px;
+}
