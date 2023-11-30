@@ -1,0 +1,80 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  background-image: url(https://t4.ftcdn.net/jpg/04/85/17/33/360_F_485173339_rHVWOWEwZneJpHqgFNiYJLSPQg7hNoAA.jpg);
+}
+
+
+.container {
+  max-width: 600px;
+  background-color: #000000;
+  color: #ffffff;
+  text-shadow: 0 0 3px #000000, 0 0 5px #0000 ;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  color: #3498db;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+button {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.location-info,
+.time-info {
+  margin-bottom: 20px;
+}
+
+.location-info p,
+.time-info p {
+  margin-bottom: 5px;
+}
+
+@media (min-width: 768px) {
+  .container {
+      max-width: 800px;
+  }
+}
+
+
+input{
+  text-align: center;
+}
+
+#todayPopup{
+  background-color: #a70000;
+  background-size:100% 100%;
+  font-weight: bold;
+}
+#todayPopup:hover{
+  transform: scale(1.1);
+}
+#tomorrowPopup{
+  background-color: #5f0000;
+  background-size:100% 100%;
+  font-weight: bold;
+}
+#tomorrowPopup:hover{
+  transform: scale(1.1);
+}
